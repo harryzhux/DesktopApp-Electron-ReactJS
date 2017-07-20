@@ -1,7 +1,8 @@
 {
-  "name": "electron-react",
+  "name": "DesktopApp-Electron-ReactJS",
   "version": "0.1.0",
   "description": "Developing desktop applications with Electron and React",
+  "author": "Harry Zhu <harryzhux@gmail.com> (http://github.com/harryzhux)",
   "license": "MIT",
   "repository": "https://github.com/harryzhux/DesktopApp-Electron-ReactJS",
   "main": "main.js",
