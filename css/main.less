@@ -1,0 +1,62 @@
+@bg-color: #fff;
+@fg-color: #88f;
+@h2-size: 25px;
+
+body {
+  background-color: @bg-color;
+}
+
+h2 {
+  color: @fg-color;
+  font-size: @h2-size;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-content {
+  display:flex;
+  flex-direction:row;
+}
+
+.App-header {
+  background-color: #000;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  vertical-align: middle;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-footer {
+  padding: 20px;
+  color: darkblue;
+  font-size: 20px;
+  background-color: #000;
+}
+
+.App-qr {
+  height: 60px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.Clock-canvas {
+    width: 400px;
+    height: 400px;
+    background-color: #ff0;
+}
+
+#canvas {
+    width: 400px;
+    height: 400px;
+    background-color: @bg-color;
+}
+

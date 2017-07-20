@@ -1,0 +1,39 @@
+{
+  "name": "electron-react",
+  "version": "0.1.0",
+  "description": "Developing desktop applications with Electron and React",
+  "license": "MIT",
+  "repository": "local",
+  "main": "main.js",
+  "devDependencies": {
+    "ajv": "^5.2.2",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "electron-packager": "^8.7.2",
+    "electron-rebuild": "^1.5.11",
+    "file-loader": "^0.11.2",
+    "image-webpack-loader": "^3.3.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "node-libs-browser": "^2.0.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "electron": "^1.6.11",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "start": "./node_modules/electron/dist/electron .",
+    "watch": "./node_modules/.bin/webpack-dev-server",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+  }
+}
