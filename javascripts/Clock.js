@@ -1,5 +1,5 @@
 import React from "react";
-const canvasWidth = 400, canvasHeight = 400;
+const canvasWidth = 300, canvasHeight = 300;
 const radius = 0.9 * canvasHeight / 2;
 
 function drawClock() {
