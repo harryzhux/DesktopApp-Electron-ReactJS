@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Developing desktop applications with Electron and React",
   "license": "MIT",
-  "repository": "local",
+  "repository": "https://github.com/harryzhux/DesktopApp-Electron-ReactJS",
   "main": "main.js",
   "devDependencies": {
     "ajv": "^5.2.2",
