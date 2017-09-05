@@ -1,3 +1,4 @@
+let debug = 1;
 const {app, BrowserWindow, crashReporter} = require('electron');
 //const electron = require("electron");
 //const app = electron.app;
@@ -14,7 +15,7 @@ crashReporter.start({
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
-const winWidth = 800;
+const winWidth = debug ? 1200 : 800;
 const winHeight = 600;
 const path = require('path');
 const url = require('url');
@@ -32,7 +33,7 @@ function createWindow () {
   }));
 
   // Open the DevTools.
-  //mainWindow.openDevTools();
+  if (debug) mainWindow.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
